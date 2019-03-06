@@ -14,16 +14,16 @@ namespace Task05
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Black;
 
-            var Sum=0;
+            var sum=0;
             for (int i = 1; i < 1000; i++)
             {
                 if ((i % 3 == 0) || (i % 5 == 0))
                 {
-                    Sum += i;
+                    sum += i;
                 }
             }
 
-            Console.WriteLine("Sum= " + Sum);
+            Console.WriteLine("Sum= " + sum);
             Console.ReadKey();
         }
     }
